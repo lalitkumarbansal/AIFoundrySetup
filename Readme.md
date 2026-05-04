@@ -16,7 +16,7 @@ KV="my-foundry-kvlk1"
 # Step 1 — Resource Group
 az group create --name $RG --location $LOCATION
 
-Step 2 — VNet & Subnets
+# Step 2 — VNet & Subnets
 az network vnet create \
   --name $VNET --resource-group $RG \
   --location $LOCATION --address-prefix 10.0.0.0/16
