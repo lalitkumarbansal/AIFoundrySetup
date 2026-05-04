@@ -11,7 +11,7 @@ PROJECT="my-foundry-project"
 STORAGE="myfoundrystoragelk"
 COSMOS="my-foundry-cosmoslk"
 SEARCH="my-foundry-searchlk"
-KV="my-foundry-kvlk"
+KV="my-foundry-kvlk1"
 
 # Step 1 — Resource Group
 az group create --name $RG --location $LOCATION
