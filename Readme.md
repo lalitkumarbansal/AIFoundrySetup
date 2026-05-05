@@ -312,7 +312,7 @@ az network private-endpoint create \
 # Step 9 : Create Project
 az cognitiveservices account project create \
   --name $ACCOUNT --resource-group $RG \
-  --project-name $PROJECT
+  --project-name $PROJECT --location $LOCATION
 
 # Step 10 : Create RBAC
 
